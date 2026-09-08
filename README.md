@@ -4,6 +4,8 @@ Ex07-Linux File-IO Systems-locking
 To Write a C program that illustrates files copying and locking
 
 # DESIGN STEPS:
+# Developed By: MOHAMED AJMAL H
+# REGISTER NO: 212225230173
 
 ### Step 1:
 
@@ -20,23 +22,6 @@ Execute the C Program for the desired output.
 # PROGRAM:
 
 ## 1.To Write a C program that illustrates files copying 
-
-
-
-
-
-
-
-## 2.To Write a C program that illustrates files locking
-
-
-
-
-## OUTPUT
-
-
-
-
-
-# RESULT:
-The programs are executed successfully.
+```c
+#include <unistd.h>
+#include <sys/stat.h>
